@@ -2,7 +2,7 @@
 
 require 'spec_helper'
 
-describe Devise::Models::JwtAuthenticatable do
+describe Devise::Models::JwtAuthenticable do
   include_context 'fixtures'
 
   let(:model) { jwt_with_jti_matcher_model }

@@ -8,7 +8,7 @@ module Devise
     #
     # @see [Warden::JWTAuth::Interfaces::UserRepository]
     # @see [Warden::JWTAuth::Interfaces::User]
-    module JwtAuthenticatable
+    module JwtAuthenticable
       extend ActiveSupport::Concern
 
       class_methods do
